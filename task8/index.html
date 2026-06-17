@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taask 8</title>
+  <style>
+    .parent-container {
+      width: 500px;
+      height: 500px;
+      background-color: yellow;
+    }
+    .static-box {
+      width: 150px;
+      height: 150px;
+      position: static;
+      background-color: blue;
+    }
+    
+    .relative-box {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      left: 50px;
+      top: 50px;
+      background-color: green;
+    }
+    
+    .absolute-box {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      left: 30px;
+      top: 30px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent-container">
+    <div class="static-box">Static</div>
+    <div class="relative-box">Relative</div>
+    <div class="absolute-box">Absolute</div>
+  </div>
+</body>
+</html>
